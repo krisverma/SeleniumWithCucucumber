@@ -14,11 +14,11 @@ import org.testng.annotations.DataProvider;
 public class TestRunner  {
 
 
-    @Override
-    @DataProvider
-    //@DataProvider (parallel = true) -- For parallel execution support (which is not going to work for our code)
-    public Object[][] scenarios() {
-        return super.scenarios();
-    }
+//     @Override
+//     @DataProvider
+//     //@DataProvider (parallel = true) -- For parallel execution support (which is not going to work for our code)
+//     public Object[][] scenarios() {
+//         return super.scenarios();
+//     }
 
 }
