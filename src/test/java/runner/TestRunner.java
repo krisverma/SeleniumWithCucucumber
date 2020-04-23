@@ -11,7 +11,7 @@ import org.testng.annotations.DataProvider;
 
 @CucumberOptions(features = {"src/test/java/features"} , plugin = {"json:target/cucumber.json","html:target/site/cucumber-pretty"},
         glue = "steps")
-public class TestRunner extends AbstractTestNGCucumberTests {
+public class TestRunner  {
 
 
     @Override
